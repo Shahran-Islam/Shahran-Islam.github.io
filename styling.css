@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75),   rgba(0, 0, 0, 0.75)), url(city.jpg);
+    background-size: cover;
+}
+.header{
+    text-align: center;
+    color: white;
+    line-height: 30;
+    margin-bottom: 20px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.logo img{
+    max-height: 100px;
+}
+
+.nav-items {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-items li {
+    margin-left: 20px;
+  }
+  
+  .nav-items a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .nav-items a:hover {
+    color: #ccc;
+  }
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    top: -470px;
+}
+
+.btn{
+    background-color: #333;
+    color: #fff;
+    border:none;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
+
+.btn:hover{
+    background-color: #555;
+}
+
+.footer{
+    display: flex;
+    gap: 30px;
+    position: relative;
+    bottom: -490px;
+    left: -1020px;
+    font-size: large;
+}
+.social-link{
+    color: #7899D4;
+}
